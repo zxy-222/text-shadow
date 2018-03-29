@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>text-shadow文字阴影</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .demo {
+      padding: 30px;
+      width: 600px;
+      background-color: #666;
+      margin: 20px auto;
+      font: bold 30px/100% "宋体";
+      color: #fff
+    }
+    /*添加阴影 offsetX offsetY blur color*/
+    .demo1 {
+      color: mediumspringgreen;
+      text-shadow: 4px 4px 5px red;
+    }
+    .demo2 {
+      text-shadow: 0px 0px 30px #fff;
+    }
+    .demo3 {
+      text-shadow: 0px 0px 30px rgb(255, 255, 255), 0px 0px 50px rgb(17, 209, 167),0px 0px 70px #fff
+    }
+    .demo4 {
+      text-shadow: 0px 1px 0px #fff;
+      color: #000;
+    }
+    .demo5 {
+      color: #fff;
+      text-shadow: -1px -1px 0px #eee,-2px -2px 0px #ddd,-3px -3px 0px #fff;
+    }
+    .demo6{
+      color: transparent;
+      text-shadow:0px 0px 2px hsla(50, 100%, 30%, 1)
+    }
+  </style>
+</head>
+<body>
+  <div class="demo  demo1">琵琶弦上说相思,当时明月在,曾照彩云归</div>
+  <div class="demo  demo2">琵琶弦上说相思,当时明月在,曾照彩云归</div>
+  <div class="demo  demo3">琵琶弦上说相思,当时明月在,曾照彩云归</div>
+  <div class="demo  demo4">琵琶弦上说相思,当时明月在,曾照彩云归</div>
+  <div class="demo  demo5">琵琶弦上说相思,当时明月在,曾照彩云归</div>
+  <div class="demo  demo6">琵琶弦上说相思,当时明月在,曾照彩云归</div>
+  <div class="demo  demo7">琵琶弦上说相思,当时明月在,曾照彩云归</div>
+</body>
+</html>
